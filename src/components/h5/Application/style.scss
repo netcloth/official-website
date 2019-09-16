@@ -1,0 +1,93 @@
+@import "../../../styles/index";
+
+.application_box{
+  padding-top: px2rem(100);
+  .title{
+    font-size: px2rem(36);
+    font-weight:400;
+    color:rgba(23,33,60,1);
+    text-align: center;
+    padding-bottom: px2rem(30);
+  }
+  .content{
+    .content_item{
+      width: px2rem(500);
+      height: px2rem(500);
+      border: px2rem(1) solid rgba(237,239,242,1);
+      margin: px2rem(30) auto auto auto;
+      position: relative;
+      &.zh_CN{
+        padding: px2rem(96) px2rem(50) 0 px2rem(50);
+      }
+      &.en_US{
+        padding: px2rem(30);
+        display: flex;
+        align-items: center;
+      }
+      .content_icon{
+        width: px2rem(65);
+        height: px2rem(65);
+        display: block;
+        margin: auto;
+        &.private{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/privite.png") center no-repeat;
+          background-size: contain;
+        }
+        &.socket{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/socket.png") center no-repeat;
+          background-size: contain;
+        }
+        &.security{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/security.png") center no-repeat;
+          background-size: contain;
+        }
+      }
+      .item_title{
+        text-align: center;
+        font-size: px2rem(34);
+        font-weight: 400;
+        color: #17213C;
+        margin-top: px2rem(20);
+      }
+      .item_content{
+        text-align: center;
+        font-size: px2rem(28);
+        font-weight: 300;
+        color: #838690;
+        margin-top: px2rem(18);
+        line-height: px2rem(42);
+        word-break: break-word;
+      }
+      .corner{
+        width: px2rem(20);
+        height: px2rem(20);
+        border: px2rem(2) solid rgba(73,87,107,1);
+        position: absolute;
+        &.corner1{
+          top: px2rem(-2);
+          left: px2rem(-2);
+          border-right: none;
+          border-bottom: none;
+        }
+        &.corner2{
+          top: px2rem(-2);
+          right: px2rem(-2);
+          border-left: none;
+          border-bottom: none;
+        }
+        &.corner3{
+          bottom: px2rem(-2);
+          right: px2rem(-2);
+          border-top: none;
+          border-left: none;
+        }
+        &.corner4{
+          bottom: px2rem(-2);
+          left: px2rem(-2);
+          border-top: none;
+          border-right: none;
+        }
+      }
+    }
+  }
+}

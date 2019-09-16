@@ -1,0 +1,41 @@
+@import "../../../styles/index";
+
+.footer{
+  width: 10rem;
+  height: px2rem(168);
+  padding: px2rem(44) px2rem(32) px2rem(44) px2rem(62);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: px2rem(1) solid rgba(255,255,255, .1);
+  .footer_left{
+    span{
+      font-size: px2rem(24);
+      font-weight: 300;
+      color:rgba(255,255,255,1);
+    }
+  }
+  .footer_right{
+    display: flex;
+    align-items: center;
+    .footer_icon{
+      width: px2rem(80);
+      height: px2rem(80);
+      &:not(:first-child){
+        margin-left: px2rem(30);
+      }
+      &.m{
+        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/medium_w.png") center no-repeat;
+        background-size: cover;
+      }
+      &.t{
+        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/twier_w.png") center no-repeat;
+        background-size: cover;
+      }
+      &.g{
+        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/github_w.png") center no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,549 @@
+@import "../../../styles/index";
+.container{
+  min-height: 100vh;
+  .top_box{
+    width: 10rem;
+    height: px2rem(1200);
+    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/homepage_h5_bg.png") no-repeat top;
+    background-size: cover;
+    padding-top: px2rem(242);
+    .icon{
+      display: block;
+      width: px2rem(134);
+      height: px2rem(133);
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/logo.png") no-repeat center;
+      background-size: contain;
+      margin: auto;
+    }
+    .title{
+      font-size: px2rem(56);
+      font-weight: normal;
+      color: rgba(255,255,255,1);
+      text-align: center;
+      margin-top: px2rem(42);
+    }
+    .tips{
+      font-size: px2rem(30);
+      font-weight:300;
+      color:rgba(255,255,255,1);
+      text-align: center;
+      margin-top: px2rem(25);
+      padding: 0 px2rem(20);
+      line-height: px2rem(42);
+      &.zh_CN{
+        letter-spacing: px2rem(4);
+      }
+    }
+    .try_btn{
+      margin-top: px2rem(100);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a{
+        padding: 0 px2rem(52);
+        height: px2rem(80);
+        background: rgba(56,96,244,1);
+        border-radius: px2rem(40);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: px2rem(28);
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+    .more{
+      text-align: center;
+      .mouse{
+        display: block;
+        width: px2rem(24);
+        height: px2rem(36);
+        border-radius: px2rem(12);
+        border: px2rem(2) solid #fff;
+        margin: px2rem(236) auto auto auto;
+        position: relative;
+        animation: bouce 1s linear infinite;
+        .dot{
+          width: px2rem(2);
+          height: px2rem(8);
+          background: #fff;
+          border-radius: px2rem(2);
+          position: absolute;
+          top: px2rem(-22);
+          left: 50%;
+          margin-left: px2rem(-1);
+        }
+      }
+      span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: px2rem(22);
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: 1px;
+        margin-top: px2rem(30);
+      }
+    }
+  }
+  .application_box{
+    padding-top: px2rem(100);
+    .title{
+      font-size: px2rem(36);
+      font-weight:400;
+      color:rgba(23,33,60,1);
+      text-align: center;
+    }
+    .content{
+      padding-top: px2rem(30);
+      .content_item{
+        width: px2rem(500);
+        height: px2rem(500);
+        border: px2rem(1) solid rgba(237,239,242,1);
+        margin: px2rem(30) auto auto auto;
+        padding: px2rem(30) px2rem(30) 0 px2rem(30);
+        position: relative;
+        .content_icon{
+          width: px2rem(65);
+          height: px2rem(65);
+          display: block;
+          margin: auto;
+          &.private{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/privite.png") center no-repeat;
+            background-size: contain;
+          }
+          &.socket{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/socket.png") center no-repeat;
+            background-size: contain;
+          }
+          &.security{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/security.png") center no-repeat;
+            background-size: contain;
+          }
+        }
+        .item_title{
+          text-align: center;
+          font-size: px2rem(34);
+          font-weight: 400;
+          color: #17213C;
+          margin-top: px2rem(20);
+        }
+        .item_content{
+          text-align: center;
+          font-size: px2rem(28);
+          font-weight: 300;
+          color: #838690;
+          margin-top: px2rem(18);
+          line-height: px2rem(42);
+          word-break: break-word;
+        }
+        .corner{
+          width: px2rem(20);
+          height: px2rem(20);
+          border: px2rem(2) solid rgba(73,87,107,1);
+          position: absolute;
+          &.corner1{
+            top: px2rem(-2);
+            left: px2rem(-2);
+            border-right: none;
+            border-bottom: none;
+          }
+          &.corner2{
+            top: px2rem(-2);
+            right: px2rem(-2);
+            border-left: none;
+            border-bottom: none;
+          }
+          &.corner3{
+            bottom: px2rem(-2);
+            right: px2rem(-2);
+            border-top: none;
+            border-left: none;
+          }
+          &.corner4{
+            bottom: px2rem(-2);
+            left: px2rem(-2);
+            border-top: none;
+            border-right: none;
+          }
+        }
+      }
+    }
+  }
+  .feature_box{
+    padding-top: px2rem(100);
+    .title{
+      font-size: px2rem(36);
+      font-weight:400;
+      color:rgba(23,33,60,1);
+      text-align: center;
+    }
+    .content{
+      padding-top: px2rem(30);
+      width: px2rem(552);
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      .content_item{
+        width: px2rem(260);
+        height: px2rem(260);
+        background: rgba(255,255,255,1);
+        box-shadow: 0 px2rem(2) px2rem(6) 0 rgba(107,121,142,0.15);
+        margin-top: px2rem(30);
+        padding-top: px2rem(64);
+        &:nth-child(2), &:nth-child(4){
+          margin-left: px2rem(30);
+        }
+        .item_icon{
+          display: block;
+          width: px2rem(60);
+          height: px2rem(60);
+          margin: auto;
+          &.offline{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/offline.png") center no-repeat;
+            background-size: contain;
+          }
+          &.local{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/local.png") center no-repeat;
+            background-size: contain;
+          }
+          &.data{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/data.png") center no-repeat;
+            background-size: contain;
+          }
+          &.message{
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/message.png") center no-repeat;
+            background-size: contain;
+          }
+        }
+        .item_title{
+          font-size: px2rem(30);
+          font-weight: 400;
+          color: #0A1633;
+          text-align: center;
+          margin-top: px2rem(30);
+          padding: 0 px2rem(4);
+        }
+      }
+    }
+  }
+  .swiper_box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: px2rem(1080);
+    margin-top: px2rem(100);
+    .swiper_year{
+      width: px2rem(220);
+      height: px2rem(1080);
+      background: #1841d7 url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/map_h5_left.png") center no-repeat;
+      background-size: contain;
+      padding: px2rem(102) 0;
+      position: relative;
+      .activeItem{
+        position: absolute;
+        top: px2rem(450);
+        width: px2rem(220);
+        height: px2rem(175);
+        border-top: 1px solid rgba(255,255,255, 0.3);
+        border-bottom: 1px solid rgba(255,255,255, 0.3);
+        .symbol{
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 1px;
+          height: px2rem(36);
+          background: #fff;
+        }
+        .up, .down{
+          width: px2rem(40);
+          height: px2rem(40);
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/switch_btn.png") center no-repeat;
+          background-size: contain;
+        }
+        .up{
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%) rotate(180deg);
+          z-index: 10;
+        }
+        .down{
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%);
+          z-index: 10;
+        }
+      }
+      :global{
+        .swiper-container{
+          width: 100%;
+          height: px2rem(876);
+        }
+        .swiper-slide{
+          color: rgba(255,255,255, .4);
+          &.swiper-slide-active{
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+      }
+      .swiper_year_wrapper{
+        display: table;
+        width: 100%;
+        height: 100%;
+        .year{
+          display: table-cell;
+          font-size: px2rem(30);
+          text-align: center;
+          vertical-align: middle;
+        }
+      }
+    }
+    .content_year{
+      width: px2rem(530);
+      height: px2rem(1080);
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/map_h5_right.png") center no-repeat;
+      background-size: contain;
+      padding: px2rem(60) px2rem(50) 0 px2rem(50);
+      .content_year_title{
+        font-size: px2rem(36);
+        font-weight: 400;
+        color:rgba(23,33,60,1);
+      }
+      .content_wrapper{
+        height: px2rem(960);
+        :global{
+          .swiper-container{
+            height: 100%;
+            .swiper-slide{
+              display: flex;
+              align-items: flex-start;
+              padding-top: px2rem(60);
+            }
+          }
+        }
+        .content{
+          .im{
+            .im_icon{
+              display: block;
+              width: px2rem(80);
+              height: px2rem(80);
+              background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/im.png") center no-repeat;
+              background-size: contain;
+            }
+            .im_content{
+              padding: px2rem(30);
+              margin-top: px2rem(30);
+              background:rgba(255,255,255,1);
+              box-shadow: 0 px2rem(2) px2rem(5) 0 rgba(107,121,142,0.09);
+              border-radius:0 px2rem(10) px2rem(10) px2rem(10);
+              max-height: px2rem(275);
+              overflow: hidden;
+              span{
+                font-size: px2rem(28);
+                font-weight:500;
+                color:rgba(56,96,244,1);
+              }
+              p{
+                font-size: px2rem(26);
+                font-weight: 400;
+                color: #49576B;
+                line-height: px2rem(44);
+                margin-top: px2rem(20);
+              }
+            }
+          }
+          .now{
+            margin-top: px2rem(50);
+            .now_icon{
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              span{
+                display: block;
+                width: px2rem(80);
+                height: px2rem(80);
+                background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/now.png") center no-repeat;
+                background-size: contain;
+              }
+            }
+            .now_content{
+              padding: px2rem(30);
+              margin-top: px2rem(30);
+              background: #3860F4;
+              box-shadow: 0 px2rem(2) px2rem(5) 0 rgba(0,0,0,0.09);
+              border-radius:0 px2rem(10) px2rem(10) px2rem(10);
+              max-height: px2rem(275);
+              overflow: hidden;
+              span{
+                font-size: px2rem(28);
+                font-weight:500;
+                color: #fff;
+              }
+              p{
+                font-size: px2rem(26);
+                font-weight: 400;
+                color: #fff;
+                line-height: px2rem(44);
+                margin-top: px2rem(20);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .down_box{
+    padding-top: px2rem(100);
+    .title{
+      font-size: px2rem(36);
+      font-weight:400;
+      color:rgba(23,33,60,1);
+      text-align: center;
+    }
+    .info_one{
+      font-size: px2rem(28);
+      font-weight: 300;
+      color: rgba(107,121,142,1);
+      line-height: px2rem(40);
+      text-align: center;
+      margin-top: px2rem(40);
+    }
+    .info_two{
+      font-size: px2rem(28);
+      font-weight: 300;
+      color: rgba(107,121,142,1);
+      line-height: px2rem(40);
+      text-align: center;
+      margin-top: px2rem(10);
+    }
+    .download_icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: px2rem(60);
+      .icon{
+        width: px2rem(150);
+        height: px2rem(150);
+        &.iphone{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/apple.png") center no-repeat;
+          background-size: contain;
+        }
+        &.and{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/and.png") center no-repeat;
+          background-size: contain;
+          margin-left: px2rem(60);
+        }
+      }
+    }
+  }
+  .faq_box{
+    padding-top: px2rem(100);
+    .icon{
+      display: block;
+      width: px2rem(72);
+      height: px2rem(72);
+      margin: auto;
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/faq_icon.png") center no-repeat;
+      background-size: contain;
+    }
+    .title{
+      font-size: px2rem(36);
+      font-weight:400;
+      color:rgba(23,33,60,1);
+      text-align: center;
+      margin-top: px2rem(20);
+    }
+    .content{
+      padding-top: px2rem(40);
+      .content_item{
+        width: px2rem(660);
+        display: flex;
+        align-items: center;
+        background: rgba(246,247,250,1);
+        border: px2rem(1) solid rgba(225,230,240,1);
+        padding: px2rem(21) px2rem(30);
+        margin: px2rem(10) auto auto auto;
+        color: #6B798E;
+      }
+      .more_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: px2rem(28);
+        font-weight: 400;
+        color:rgba(56,96,244,1);
+        margin-top: px2rem(50);
+      }
+    }
+  }
+  .subscription_box{
+    margin-top: px2rem(100);
+    width: px2rem(750);
+    height: px2rem(600);
+    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/homepage_h5_footer.png") center no-repeat;
+    background-size: cover;
+    padding-top: px2rem(100);
+    .info_one{
+      text-align: center;
+      font-size: px2rem(36);
+      font-weight: 400;
+      color: #fff;
+    }
+    .info_two{
+      text-align: center;
+      font-size: px2rem(24);
+      font-weight: 300;
+      color: #fff;
+      margin-top: 10px;
+    }
+    .input_wrapper{
+      width: px2rem(660);
+      height: px2rem(88);
+      margin: px2rem(60) auto auto auto;
+      position: relative;
+      input{
+        width: px2rem(660);
+        height: px2rem(88);
+        border: 1px solid #fff;
+        border-radius: px2rem(44);
+        background: transparent;
+        outline: none;
+        font-size: px2rem(26);
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        padding: px2rem(25) px2rem(245) px2rem(25) px2rem(30);
+      }
+      .btn{
+        width: px2rem(200);
+        height: px2rem(78);
+        background: rgba(255,255,255,1);
+        border-radius: px2rem(40);
+        font-size: px2rem(28);
+        font-weight:500;
+        color:rgba(10,22,51,1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: px2rem(5);
+        right: px2rem(5);
+      }
+    }
+  }
+  .footerWrapper{
+    margin-top: px2rem(-168);
+  }
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-4);
+  }
+}

@@ -1,0 +1,11 @@
+@mixin ellipsis(){
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin clamp($num:1) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+}

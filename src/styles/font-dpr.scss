@@ -1,0 +1,43 @@
+@mixin font-dpr($font-size){
+  font-size: $font-size;
+
+  [data-dpr="2"] & {
+    font-size: $font-size * 2;
+  }
+  [data-dpr="3"] & {
+    font-size: $font-size * 3;
+  }
+}
+
+@mixin height-dpr($height-size){
+  height: $height-size;
+
+  [data-dpr="2"] & {
+    height: $height-size * 2;
+  }
+  [data-dpr="3"] & {
+    height: $height-size * 3;
+  }
+}
+
+@mixin width-dpr($width-size){
+  width: $width-size;
+
+  [data-dpr="2"] & {
+    width: $width-size * 2;
+  }
+  [data-dpr="3"] & {
+    width: $width-size * 3;
+  }
+}
+
+@mixin border-right($px,$solid,$color){
+
+  border-right: $px $solid $color;
+  [data-dpr="2"] & {
+    border-right: $px * 2 $solid $color;
+  }
+  [data-dpr="3"] & {
+    border-right: $px * 3 $solid $color;
+  }
+}
