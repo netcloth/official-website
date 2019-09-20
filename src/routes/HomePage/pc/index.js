@@ -325,7 +325,7 @@ export default class HomePage extends React.Component {
                                 <p className={style.and_apk}>
                                   <span />
                                 </p>
-                                <a href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.4/src/assets/netcloth0.1.3.apk" download="netcloth-v0.1.3.apk">点击下载</a>
+                                <a href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.5/src/assets/netcloth0.2.0.apk" download="netcloth-v0.2.0.apk">点击下载</a>
                               </div>
                               <div className={style.down_pop_right}>
                                 <p className={style.and_qrd} />

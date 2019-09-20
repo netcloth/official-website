@@ -41,7 +41,7 @@ class DownLoad extends React.Component {
   renderDownload() {
     if (this.checkAngent()) {
       return (
-        <a href="https://cdn.jsdelivr.net/gh/NetCloth/official-website@v0.0.4/src/assets/netcloth0.1.3.apk" download="netcloth-v0.1.3.apk">本地下载</a>
+        <a href="https://cdn.jsdelivr.net/gh/NetCloth/official-website@v0.0.5/src/assets/netcloth0.2.0.apk" download="netcloth-v0.2.0.apk">本地下载</a>
       )
     } else {
       return (
