@@ -33,14 +33,22 @@ class NormalFaq extends React.Component {
   renderPanel = () => {
     const { activeKey } = this.state;
     return faqs.map((item, key) => {
-      const { text, content } = item;
-      return (
-        <Panel header={<p className={style.panel_header}>{_t(text)}</p>} key={key} extra={this.genExtra(activeKey, key)}>
-          <div className={style.panel}>
-            {_tHtml(content)}
-          </div>
-        </Panel>
-      );
+      const { text, content, pic } = item;
+			if (undefined !== pic) {
+				return (
+					<Panel header={_t(text)} key={key} extra={this.genExtra(activeKey, key)}>
+						<div className={style.panel}>
+							<img src={pic} alt="FAQ" className={style.image} />
+						</div>
+					</Panel>
+				);
+			} else {
+				return (
+					<Panel header={_t(text)} key={key} extra={this.genExtra(activeKey, key)}>
+						<div className={style.panel}>{_tHtml(content)}</div>
+					</Panel>
+				);
+			}
     })
   };
   render() {

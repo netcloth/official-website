@@ -5,7 +5,7 @@ const faqs = [
     },
     {
       text: 'faq2.title',
-      content: 'faq2.content',
+      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/generate_logic.png',
     },
     {
       text: 'faq3.title',
@@ -29,7 +29,7 @@ const faqs = [
     },
     {
       text: 'faq8.title',
-      content: 'faq8.content',
+      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/send_logic.png',
     },
     {
       text: 'faq9.title',

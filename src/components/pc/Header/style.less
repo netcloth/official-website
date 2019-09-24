@@ -1,117 +1,115 @@
-.header{
-  width: 100%;
-  transition: all 0.3s linear;
-  .headerC{
-    width: 100%;
-    padding: 0 100px;
-    .header_content{
-      min-width: 1200px;
-      background: transparent;
-      height: 80px;
-      line-height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    .header_left{
-      display: flex;
-      align-items: center;
-      .logo{
-        width: 128px;
-        height: 29px;
-        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/logo_header_w.png") center no-repeat;
-        background-size: contain;
-      }
-      .main_menu{
-        color: inherit;
-        background: transparent !important;
-        border: none !important;
-        padding-left: 20px;
-        :global{
-          .ant-menu-item{
-            border: none;
-            // padding: 0;
-            &.ant-menu-item-selected{
-              a{
-                transition: all 0.3s linear;
-                font-weight: 500;
-                color: rgba(255,255,255, 1);
-              }
-            }
-            a{
-              transition: all 0.3s linear;
-              border: none;
-              font-size: 16px;
-              font-weight:300;
-              color: rgba(255,255,255, .7);
-            }
-          }
-        }
-      }
-    }
-    .header_right{
-      .lang_switch{
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        img{
-          width: 20px;
-          height: 20px;
-        }
-        span{
-          transition: all 0.3s linear;
-          font-size:16px;
-          font-weight:400;
-          color: #fff;
-          margin-left: 10px;
-        }
-      }
-    }
-  }
-  }
-  &.over{
-    background: #fff;
-    box-shadow:0 2px 15px 0 rgba(107,121,142,0.1);
-    .headerC{
-      width: 100%;
-      padding: 0 100px;
-      .header_content{
-        .header_left {
-          .logo{
-            background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/header_logo_b.png") !important;
-          }
-          :global{
-            .ant-menu-item{
-              &.ant-menu-item-selected{
-                a{
-                  font-weight: 500;
-                  color: rgba(0,0,0, 1) !important;
-                }
-              }
-              a{
-                border: none;
-                font-size: 16px;
-                font-weight:300;
-                color: rgba(0,0,0, .8) !important;
-              }
-            }
-          }
-        }
-        .header_right{
-          .lang_switch{
-            span{
-              color: #000;
-            }
-          }
-        }
-      }
-    }
-  }
+.header {
+	width: 100%;
+	transition: all 0.3s linear;
+	.header_content {
+		min-width: 100%;
+		background: transparent;
+		height: 80px;
+		padding: 0 100px;
+		line-height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.header_left {
+			display: flex;
+			align-items: center;
+			.logo {
+				width: 128px;
+				height: 29px;
+				background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/logo_header_w.png")
+					center no-repeat;
+				background-size: contain;
+			}
+			.main_menu {
+				color: inherit;
+				background: transparent !important;
+				border: none !important;
+				padding-left: 20px;
+				:global {
+					.ant-menu-item {
+						border: none;
+						// padding: 0;
+						&.ant-menu-item-selected {
+							a {
+								transition: all 0.3s linear;
+								font-weight: 500;
+								color: rgba(255, 255, 255, 1);
+							}
+						}
+						a {
+							transition: all 0.3s linear;
+							border: none;
+							font-size: 16px;
+							font-weight: 300;
+							color: rgba(255, 255, 255, .7);
+						}
+					}
+				}
+			}
+		}
+		.header_right {
+			.lang_switch {
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				img {
+					width: 20px;
+					height: 20px;
+				}
+				span {
+					transition: all 0.3s linear;
+					font-size: 16px;
+					font-weight: 400;
+					color: #fff;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+	&.over {
+		background: #fff;
+		box-shadow: 0 2px 15px 0 rgba(107, 121, 142, 0.1);
+		.headerC {
+			width: 100%;
+			padding: 0 100px;
+			.header_content {
+				.header_left {
+					.logo {
+						background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.6/src/assets/header_logo_b.png") !important;
+					}
+					:global {
+						.ant-menu-item {
+							&.ant-menu-item-selected {
+								a {
+									font-weight: 500;
+									color: rgba(0, 0, 0, 1) !important;
+								}
+							}
+							a {
+								border: none;
+								font-size: 16px;
+								font-weight: 300;
+								color: rgba(0, 0, 0, .8) !important;
+							}
+						}
+					}
+				}
+				.header_right {
+					.lang_switch {
+						span {
+							color: #000;
+						}
+					}
+				}
+			}
+		}
+	}
 }
-.layout_header{
-  position: fixed !important;
-  height: auto !important;
-  width: 100%;
-  padding: 0 !important;
-  background: transparent !important;
-  z-index: 999;
+.layout_header {
+	position: fixed !important;
+	height: auto !important;
+	width: 100%;
+	padding: 0 !important;
+	background: transparent !important;
+	z-index: 999;
 }
