@@ -215,12 +215,12 @@ export default class HomePage extends React.Component {
 										<i
 											className={classNames(style.up, style[currentLocale])}
 											onClick={() => {
-												this.handleLeftSwitch(true);
+												this.handleLeftSwitch(false);
 											}}
 										/>
 										<i
 											onClick={() => {
-												this.handleLeftSwitch(false);
+												this.handleLeftSwitch(true);
 											}}
 											className={classNames(style.down, style[currentLocale])}
 										/>
