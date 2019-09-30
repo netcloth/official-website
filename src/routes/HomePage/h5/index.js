@@ -116,12 +116,12 @@ export default class HomePage extends React.Component {
 							<i
 								className={style.up}
 								onClick={() => {
-									this.switchSwiper(true);
+									this.switchSwiper(false);
 								}}
 							/>
 							<i
 								onClick={() => {
-									this.switchSwiper(false);
+									this.switchSwiper(true);
 								}}
 								className={style.down}
 							/>
