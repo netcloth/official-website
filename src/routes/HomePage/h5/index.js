@@ -29,7 +29,7 @@ export default class HomePage extends React.Component {
 	params_left = {
 		direction: 'vertical',
 		slidesPerView: 5,
-		autoHeight: true,
+		heigth:50,
 		centeredSlides: true,
 		initialSlide: 0,
 		on: {
@@ -116,12 +116,12 @@ export default class HomePage extends React.Component {
 							<i
 								className={style.up}
 								onClick={() => {
-									this.switchSwiper(true);
+									this.switchSwiper(false);
 								}}
 							/>
 							<i
 								onClick={() => {
-									this.switchSwiper(false);
+									this.switchSwiper(true);
 								}}
 								className={style.down}
 							/>
@@ -175,7 +175,9 @@ export default class HomePage extends React.Component {
 					<p className={style.info_one}>{_t('down.tips1')}</p>
 					<p className={style.info_two}>{_t('down.tips2')}</p>
 					<div className={style.download_icons}>
-						<Link to="/download" className={classNames(style.icon, style.iphone)} />
+						
+						<a href="https://apps.apple.com/cn/app/netcloth/id1481045375" target="_blank" className={classNames(style.icon, style.iphone)}> </a>
+
 						<Link to="/download" className={classNames(style.icon, style.and)} />
 					</div>
 				</div>

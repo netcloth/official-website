@@ -28,7 +28,7 @@ class Install extends React.Component {
           <span className={style.icon} />
           <p className={style.title}>NetCloth</p>
           <p className={style.tips}>一个保护隐私的点对点即时通讯APP</p>
-          <a  href="http://52sg.vip/app.php/4166" className={style.try_btn}>
+          <a  href="https://apps.apple.com/cn/app/netcloth/id1481045375" target="_blank" className={style.try_btn}>
             立即试用
           </a>
 

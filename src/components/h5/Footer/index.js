@@ -13,11 +13,28 @@ export default class Footer extends React.Component {
           </span>
         </div>
         <div className={style.footer_right}>
-          <div className={classNames(style.footer_icon, style.m)} />
-          <div className={classNames(style.footer_icon, style.t)} />
-          <div className={classNames(style.footer_icon, style.g)} />
+          <div className={classNames(style.footer_icon, style.m)} >
+          {this.handleClick("https://medium.com/@NetCloth")}
+          </div>
+          <div className={classNames(style.footer_icon, style.t)} > 
+          {this.handleClick("https://twitter.com/NetCloth")}
+          </div>
+          <div className={classNames(style.footer_icon, style.g)} > 
+          {this.handleClick("https://github.com/netcloth")}
+          </div>
+          <div className={classNames(style.footer_icon, style.b)} > 
+          {this.handleClick("https://blog.netcloth.org")}
+          </div>
         </div>
       </div>
     );
+  };
+
+
+  handleClick = (url) => {
+
+    return (<a href={url} target="_blank" className={`${style.click}`}></a>)
+
+    // window.location.href = url
   }
 }

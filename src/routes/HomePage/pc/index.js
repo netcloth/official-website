@@ -12,7 +12,7 @@ import Footer from 'components/pc/Footer';
 import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.9/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.0/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -215,12 +215,12 @@ export default class HomePage extends React.Component {
 										<i
 											className={classNames(style.up, style[currentLocale])}
 											onClick={() => {
-												this.handleLeftSwitch(true);
+												this.handleLeftSwitch(false);
 											}}
 										/>
 										<i
 											onClick={() => {
-												this.handleLeftSwitch(false);
+												this.handleLeftSwitch(true);
 											}}
 											className={classNames(style.down, style[currentLocale])}
 										/>
@@ -288,7 +288,7 @@ export default class HomePage extends React.Component {
 													<div className={style.down_apple}>
 														<div className={style.down_pop}>
 															<div className={style.down_pop_right}>
-																<p className={style.ios_qrd} />
+																<p className={classNames(style.ios_qrd, style[currentLocale])} />
 																<span>{_t('download.qrcode')}</span>
 															</div>
 														</div>
@@ -297,6 +297,8 @@ export default class HomePage extends React.Component {
 											>
 												<div className={style.apple} id="apple" />
 											</Popover>
+
+											
 											<Popover
 												getPopupContainer={() => document.getElementById('and')}
 												placement="bottom"
@@ -308,7 +310,7 @@ export default class HomePage extends React.Component {
 																	<span />
 																</p>
 																<a
-																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.0.9/src/assets/netcloth0.2.0.apk"
+																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.0/src/assets/netcloth0.2.0.apk"
 																	download="netcloth-v0.2.0.apk"
 																>
 																	{_t('download.click')}
