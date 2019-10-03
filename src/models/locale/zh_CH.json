@@ -81,5 +81,6 @@
 	"subscribe.button": "确定订阅",
 	"download.local": "本地下载",
 	"download.click": "点击下载",
+	"download.google":"Google play",
 	"download.qrcode": "扫描下APP"
 }

@@ -81,5 +81,6 @@
 	"subscribe.button": "Subscribe",
 	"download.local": "Download APK",
 	"download.click": "Download APK",
+	"download.google":"Google play",
 	"download.qrcode": "Scan the QR Code"
 }
