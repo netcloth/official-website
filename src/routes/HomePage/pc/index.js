@@ -12,7 +12,7 @@ import Footer from 'components/pc/Footer';
 import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.2/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.3/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -310,8 +310,8 @@ export default class HomePage extends React.Component {
 																	<span />
 																</p>
 																<a
-																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.2/src/assets/netcloth1.0.1.apk"
-																	download="netcloth-v1.0.1.apk"
+																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.3/src/assets/netcloth1.0.2.apk"
+																	download="netcloth-v1.0.2.apk"
 																>
 																	{_t('download.click')}
 																</a>
