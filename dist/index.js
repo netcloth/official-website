@@ -2391,7 +2391,7 @@ var _style = _interopRequireDefault(__webpack_require__("iPK5"));
 
 var _dec, _class, _temp;
 
-var logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/logo.png';
+var logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/logo.png';
 var HomePage = (_dec = (0, _withLocal.default)(), _dec(_class = (_temp =
 /*#__PURE__*/
 function (_React$Component) {
@@ -2722,7 +2722,7 @@ function (_React$Component) {
         }, _react.default.createElement("p", {
           className: _style.default.and_apk
         }, _react.default.createElement("span", null)), _react.default.createElement("a", {
-          href: "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/netcloth1.0.4.apk",
+          href: "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/netcloth1.0.4.apk",
           download: "netcloth-v1.0.2.apk"
         }, (0, _lang._t)('download.click'))), _react.default.createElement("div", {
           className: _style.default.down_pop_left
@@ -14358,10 +14358,10 @@ __webpack_require__("hnXZ");
 
 var _style = _interopRequireDefault(__webpack_require__("iPK5"));
 
-var phone1 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/phone_1.png';
-var phone2 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/phone_2.png';
-var phone3 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/phone_3.png';
-var phone4 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/phone_4.png';
+var phone1 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/phone_1.png';
+var phone2 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/phone_2.png';
+var phone3 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/phone_3.png';
+var phone4 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/phone_4.png';
 
 var DownLoadSwiper =
 /*#__PURE__*/
@@ -31830,7 +31830,7 @@ var faqs = [{
   content: 'faq1.content'
 }, {
   text: 'faq2.title',
-  pic: 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/generate_logic.png'
+  pic: 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/generate_logic.png'
 }, {
   text: 'faq3.title',
   content: 'faq3.content'
@@ -31848,7 +31848,7 @@ var faqs = [{
   content: 'faq7.content'
 }, {
   text: 'faq8.title',
-  pic: 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/send_logic.png'
+  pic: 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/send_logic.png'
 }, {
   text: 'faq9.title',
   content: 'faq9.content'
@@ -48982,7 +48982,7 @@ var _style = _interopRequireDefault(__webpack_require__("W0UA"));
 
 var _dec, _class, _temp;
 
-var openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/menu.png';
+var openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/menu.png';
 var iconConfig = {
   en_US: {
     text: '中文',
@@ -55469,7 +55469,7 @@ function (_React$Component) {
       if (this.checkAngent()) {
         //android
         return _react.default.createElement("a", {
-          href: "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.5/src/assets/netcloth1.0.4.apk",
+          href: "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/netcloth1.0.4.apk",
           download: "netcloth-v1.0.2.apk"
         }, (0, _lang._t)('download.local'));
       } else {
