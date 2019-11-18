@@ -4,10 +4,10 @@ import Swiper from 'react-id-swiper';
 import 'react-id-swiper/lib/styles/css/swiper.css';
 import { Progress } from 'antd'
 import style from './style.less';
-const phone1 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/phone_1.png';
-const phone2 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/phone_2.png';
-const phone3 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/phone_3.png';
-const phone4 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/phone_4.png';
+const phone1 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.8/src/assets/phone_1.png';
+const phone2 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.8/src/assets/phone_2.png';
+const phone3 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.8/src/assets/phone_3.png';
+const phone4 = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.8/src/assets/phone_4.png';
 
 
 

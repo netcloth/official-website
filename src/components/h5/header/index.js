@@ -1,10 +1,11 @@
 import React from 'react';
+import { _t } from 'utils/lang';
 import { Link } from 'dva/router';
 import classNames from 'classnames';
 import connectWithRouter from 'utils/connectWithRouter';
 import MenuIcon from './MenuIcon';
 import style from './style.scss';
-const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/menu.png';
+const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.8/src/assets/menu.png';
 
 
 const iconConfig = {
@@ -117,8 +118,8 @@ class Header extends React.Component {
                   this.toggleMenu(false);
                 }}
               />
-              <a>主链计划</a>
-              <Link to="/faq">常见问题</Link>
+              <a href="https://www.netcloth.org/" >{_t('header.menu.main')}</a>
+              <Link to="/faq">{_t('header.menu.faq')}</Link>
             </div>
           </div>
         </div>
