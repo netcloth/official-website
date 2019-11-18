@@ -82,5 +82,9 @@
 	"download.local": "本地下载",
 	"download.click": "点击下载",
 	"download.google":"Google play",
-	"download.qrcode": "扫描下APP"
+	"download.qrcode": "扫描下APP",
+	"mail.msg_ok":"订阅成功",
+	"mail.msg_faild1":"订阅失败，邮件名称不合法",
+    "mail.msg_faild2":"订阅失败，重复订阅",
+    "mail.msg_faild3":"订阅失败，未知错误"
 }

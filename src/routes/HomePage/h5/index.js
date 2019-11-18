@@ -10,6 +10,7 @@ import Header from 'components/h5/header';
 import Footer from 'components/h5/Footer';
 import Application from 'components/h5/Application';
 import style from './index.scss';
+import axios from "axios"
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -18,6 +19,41 @@ export default class HomePage extends React.Component {
 		this.myRef = React.createRef();
 		this.downLoad = React.createRef();
 	}
+	handleSubscribe = () => {
+		let email =  document.getElementById("email_input").value;
+		var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+		console.log(this.props)
+		console.log(this.props.currentLocale)
+		console.log(this.props.currentLocale=="zh_CN"?"zh":"en")
+		if(!reg.test(email)){
+			let xxx = _t("mail.msg_faild1");
+			alert(xxx); 
+			return;
+		}
+		let ok_msg = _t("mail.msg_ok");
+		let faild_msg2 = _t("msg_faild2");
+		let faild_msg3 = _t("msg_faild3");
+		let url = '/config/email.php?language='+(this.props.currentLocale=="zh_CN"?"zh":"en")+'&email='+email
+		axios.get(
+			url,
+			{
+			method:'get',
+			withCredentials:true,
+			})
+		.then( (response) => {
+			console.log(response);
+			let res_obj = response.data;
+			if(res_obj.result){
+			alert(ok_msg);
+			}else{
+			alert(faild_msg2);
+			}
+		})
+		.catch( (error) => {
+			console.log(error)
+			alert(error)
+		});
+	};
 
 	handleClick = () => {
 		const offset = this.downLoad.current.getBoundingClientRect();
@@ -204,8 +240,8 @@ export default class HomePage extends React.Component {
 					<p className={style.info_one}>{_t('subscribe.title')}</p>
 					<p className={style.info_two}>{_t('subscribe.content')}</p>
 					<div className={style.input_wrapper}>
-						<input type="text" placeholder={_t('subscribe.hint')} />
-						<a className={style.btn}>{_t('subscribe.button')}</a>
+						<input type="text" id="email_input" placeholder={_t('subscribe.hint')} />
+						<a className={style.btn} onClick={this.handleSubscribe}>{_t('subscribe.button')}</a>
 					</div>
 				</div>
 				<Footer className={style.footerWrapper} />

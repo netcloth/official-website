@@ -12,7 +12,8 @@ import Footer from 'components/pc/Footer';
 import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/logo.png';
+import axios from "axios";
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -134,6 +135,41 @@ export default class HomePage extends React.Component {
 
 	updateRightSwiper = (swiperInstance) => {
 		this.swiperRightInstance = swiperInstance;
+	};
+	handleSubscribe = () => {
+		let email =  document.getElementById("email_input").value;
+		var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+		console.log(this.props)
+		console.log(this.props.currentLocale)
+		console.log(this.props.currentLocale=="zh_CN"?"zh":"en")
+		if(!reg.test(email)){
+			let xxx = _t("mail.msg_faild1");
+			alert(xxx); 
+			return;
+		}
+		let ok_msg = _t("mail.msg_ok");
+		let faild_msg2 = _t("msg_faild2");
+		let faild_msg3 = _t("msg_faild3");
+		let url = '/config/email.php?language='+(this.props.currentLocale=="zh_CN"?"zh":"en")+'&email='+email
+		axios.get(
+			url,
+			{
+			method:'get',
+			withCredentials:true,
+			})
+		.then( (response) => {
+			console.log(response);
+			let res_obj = response.data;
+			if(res_obj.result){
+			alert(ok_msg);
+			}else{
+			alert(faild_msg2);
+			}
+		})
+		.catch( (error) => {
+			console.log(error)
+			alert(error)
+		});
 	};
 	handleClick = () => {
 		const offset = this.downLoad.current.getBoundingClientRect();
@@ -310,7 +346,7 @@ export default class HomePage extends React.Component {
 																	<span />
 																</p>
 																<a
-																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.6/src/assets/netcloth1.0.4.apk"
+																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.1.7/src/assets/netcloth1.0.4.apk"
 																	download="netcloth-v1.0.2.apk"
 																>
 																	{_t('download.click')}
@@ -367,8 +403,8 @@ export default class HomePage extends React.Component {
 									<p>{_t('subscribe.content')}</p>
 								</div>
 								<p className={style.subscription_input}>
-									<Input placeholder={_t('subscribe.hint')} />
-									<a>{_t('subscribe.button')}</a>
+									<Input id="email_input" placeholder={_t('subscribe.hint')} />
+									<a onClick={this.handleSubscribe}>{_t('subscribe.button')}</a>
 								</p>
 							</div>
 						</section>

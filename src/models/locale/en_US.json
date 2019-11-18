@@ -82,5 +82,9 @@
 	"download.local": "Download APK",
 	"download.click": "Download APK",
 	"download.google":"Google play",
-	"download.qrcode": "Scan the QR Code"
+	"download.qrcode": "Scan the QR Code",
+	"mail.msg_ok":"Success",
+	"mail.msg_faild1":"Subscribe Failed，Please enter the correct e-mail address",
+	"mail.msg_faild2":"Subscribe Failed，You have already subscribed",
+	"mail.msg_faild3":"Subscribe Failed，Unknown Error"
 }
