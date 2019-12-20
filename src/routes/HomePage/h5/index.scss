@@ -4,14 +4,14 @@
   .top_box{
     width: 10rem;
     height: px2rem(1200);
-    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/homepage_h5_bg.png") no-repeat top;
+    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/homepage_h5_bg.png") no-repeat top;
     background-size: cover;
     padding-top: px2rem(242);
     .icon{
       display: block;
       width: px2rem(134);
       height: px2rem(133);
-      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/logo.png") no-repeat center;
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/logo.png") no-repeat center;
       background-size: contain;
       margin: auto;
     }
@@ -109,15 +109,15 @@
           display: block;
           margin: auto;
           &.private{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/privite.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/privite.png") center no-repeat;
             background-size: contain;
           }
           &.socket{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/socket.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/socket.png") center no-repeat;
             background-size: contain;
           }
           &.security{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/security.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/security.png") center no-repeat;
             background-size: contain;
           }
         }
@@ -200,19 +200,19 @@
           height: px2rem(60);
           margin: auto;
           &.offline{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/offline.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/offline.png") center no-repeat;
             background-size: contain;
           }
           &.local{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/local.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/local.png") center no-repeat;
             background-size: contain;
           }
           &.data{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/data.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/data.png") center no-repeat;
             background-size: contain;
           }
           &.message{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/message.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/message.png") center no-repeat;
             background-size: contain;
           }
         }
@@ -239,7 +239,7 @@
     .swiper_year{
       width: px2rem(220);
       height: px2rem(1080);
-      background: #1841d7 url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/map_h5_left.png") center no-repeat;
+      background: #1841d7 url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/map_h5_left.png") center no-repeat;
       background-size: contain;
       padding: px2rem(102) 0;
       position: relative;
@@ -262,7 +262,7 @@
         .up, .down{
           width: px2rem(40);
           height: px2rem(40);
-          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/switch_btn.png") center no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/switch_btn.png") center no-repeat;
           background-size: contain;
         }
         .up{
@@ -310,7 +310,7 @@
     .content_year{
       width: px2rem(530);
       height: px2rem(1080);
-      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/map_h5_right.png") center no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/map_h5_right.png") center no-repeat;
       background-size: contain;
       padding: px2rem(60) px2rem(50) 0 px2rem(50);
 
@@ -337,7 +337,7 @@
               display: block;
               width: px2rem(80);
               height: px2rem(80);
-              background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/im.png") center no-repeat;
+              background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/im.png") center no-repeat;
               background-size: contain;
             }
             .im_content{
@@ -373,7 +373,7 @@
                 display: block;
                 width: px2rem(80);
                 height: px2rem(80);
-                background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/now.png") center no-repeat;
+                background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/now.png") center no-repeat;
                 background-size: contain;
               }
             }
@@ -437,16 +437,16 @@
         width: px2rem(150);
         height: px2rem(150);
         &.iphone{
-          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/apple.png") center no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/apple.png") center no-repeat;
           background-size: contain;
         }
         &.and{
-          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/and.png") center no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/and.png") center no-repeat;
           background-size: contain;
           margin-left: px2rem(60);
         }
         &.google{
-          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/googleplay_h.png") center no-repeat;
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/googleplay_h.png") center no-repeat;
           background-size: contain;
           margin-left: px2rem(60);
         }
@@ -460,7 +460,7 @@
       width: px2rem(72);
       height: px2rem(72);
       margin: auto;
-      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/faq_icon.png") center no-repeat;
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/faq_icon.png") center no-repeat;
       background-size: contain;
     }
     .title{
@@ -497,7 +497,7 @@
     margin-top: px2rem(100);
     width: px2rem(750);
     height: px2rem(600);
-    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/homepage_h5_footer.png") center no-repeat;
+    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.2/src/assets/homepage_h5_footer.png") center no-repeat;
     background-size: cover;
     padding-top: px2rem(100);
     .info_one{
