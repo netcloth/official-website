@@ -4,14 +4,14 @@
   .top_box{
     width: 10rem;
     height: px2rem(1200);
-    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.0/src/assets/homepage_h5_bg.png") no-repeat top;
+    background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/homepage_h5_bg.png") no-repeat top;
     background-size: cover;
     padding-top: px2rem(232);
     .icon{
       display: block;
       width: px2rem(134);
       height: px2rem(133);
-      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.0/src/assets/logo.png") no-repeat center;
+      background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/logo.png") no-repeat center;
       background-size: contain;
       margin: auto;
     }
@@ -69,13 +69,13 @@
         margin-top: px2rem(20);
         @for $i from 1 through 5{
           &.zh_CN_#{$i}{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.0/src/assets/install/#{$i}_zh_CN.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/install/#{$i}_zh_CN.png") center no-repeat;
             background-size: contain;
           }
         }
         @for $i from 1 through 5{
           &.en_US_#{$i}{
-            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.0/src/assets/install/#{$i}_en_US.png") center no-repeat;
+            background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.1/src/assets/install/#{$i}_en_US.png") center no-repeat;
             background-size: contain;
           }
         }
