@@ -5,7 +5,7 @@ const faqs = [
     },
     {
       text: 'faq2.title',
-      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.4/src/assets/generate_logic.png',
+      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.5/src/assets/generate_logic.png',
     },
     {
       text: 'faq3.title',
@@ -29,7 +29,7 @@ const faqs = [
     },
     {
       text: 'faq8.title',
-      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.4/src/assets/send_logic.png',
+      pic:'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.5/src/assets/send_logic.png',
     },
     {
       text: 'faq9.title',
