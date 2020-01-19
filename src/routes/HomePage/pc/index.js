@@ -13,7 +13,7 @@ import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
 import axios from "axios";
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.6/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.7/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -346,8 +346,8 @@ export default class HomePage extends React.Component {
 																	<span />
 																</p>
 																<a
-																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.6/src/assets/netcloth1.1.2.apk"
-																	download="netcloth-v1.1.2.apk"
+																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.7/src/assets/netcloth1.1.3.apk"
+																	download="netcloth-v1.1.3.apk"
 																>
 																	{_t('download.click')}
 																</a>
