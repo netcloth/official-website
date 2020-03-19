@@ -4,7 +4,7 @@ import withLocal from 'components/withLocal';
 import { _t } from 'utils/lang';
 import { faqs, features, swiper_right, swiper_left } from 'config/base';
 import Swiper from 'react-id-swiper';
-import 'react-id-swiper/lib/styles/css/swiper.css';
+//import 'react-id-swiper/lib/styles/css/swiper.css';
 import { Link } from 'dva/router';
 import Header from 'components/h5/header';
 import Footer from 'components/h5/Footer';
@@ -226,14 +226,14 @@ export default class HomePage extends React.Component {
 						{faqs.slice(0, 6).map((item, key) => {
 							const { text } = item;
 							return (
-								<Link to="/faq" className={style.content_item} key={key}>
+								<a href="https://netcloth.zendesk.com" target="_blank" className={style.content_item} key={key}>
 									{_t(text)}
-								</Link>
+								</a>
 							);
 						})}
-						<Link to="/faq" className={style.more_btn}>
+						<a href="https://netcloth.zendesk.com" target="_blank" className={style.more_btn}>
 							{_t('faq.more')} >
-						</Link>
+						</a>
 					</div>
 				</div>
 				<div className={style.subscription_box}>

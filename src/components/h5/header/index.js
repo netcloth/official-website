@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import connectWithRouter from 'utils/connectWithRouter';
 import MenuIcon from './MenuIcon';
 import style from './style.scss';
-const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.9/src/assets/menu.png';
+const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.0/src/assets/menu.png';
 
 
 const iconConfig = {
@@ -119,7 +119,7 @@ class Header extends React.Component {
                 }}
               />
               <a href="https://www.netcloth.org/" >{_t('header.menu.main')}</a>
-              <Link to="/faq">{_t('header.menu.faq')}</Link>
+              <a href="https://netcloth.zendesk.com" target="_blank">{_t('header.menu.faq')}</a>
             </div>
           </div>
         </div>

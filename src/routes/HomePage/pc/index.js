@@ -6,14 +6,14 @@ import withLocal from 'components/withLocal';
 import { _t } from 'utils/lang';
 import classNames from 'classnames';
 import Swiper from 'react-id-swiper';
-import 'react-id-swiper/lib/styles/css/swiper.css';
+//import 'react-id-swiper/lib/styles/css/swiper.css';
 import Header from 'components/pc/Header';
 import Footer from 'components/pc/Footer';
 import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
 import axios from "axios";
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.9/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.0/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -346,8 +346,8 @@ export default class HomePage extends React.Component {
 																	<span />
 																</p>
 																<a
-																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.2.9/src/assets/netcloth1.1.6.apk"
-																	download="netcloth-v1.1.3.apk"
+																	href="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.0/src/assets/netcloth1.1.7.apk"
+																	download="netcloth-v1.1.7.apk"
 																>
 																	{_t('download.click')}
 																</a>
@@ -385,14 +385,14 @@ export default class HomePage extends React.Component {
 								<div className={style.content}>
 									{_.map(faqs.slice(0, 6), (item) => {
 										return (
-											<Link to="/faq" className={style.content_item}>
+											<a href="https://netcloth.zendesk.com" target="_blank" className={style.content_item}>
 												<span>{_t(item.text)}</span>
-											</Link>
+											</a>
 										);
 									})}
 								</div>
 								<p className={style.faq_more}>
-									<Link to="/faq">{_t('faq.more')} ></Link>
+									<a href="https://netcloth.zendesk.com" target="_blank">{_t('faq.more')} ></a>
 								</p>
 							</div>
 						</section>
