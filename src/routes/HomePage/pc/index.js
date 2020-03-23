@@ -13,7 +13,7 @@ import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
 import axios from "axios";
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.3/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.4/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
@@ -385,14 +385,14 @@ export default class HomePage extends React.Component {
 								<div className={style.content}>
 									{_.map(faqs.slice(0, 6), (item) => {
 										return (
-											<a href="https://netcloth.zendesk.com" target="_blank" className={style.content_item}>
+											<a href={_t('faq.src')} target="_blank" className={style.content_item}>
 												<span>{_t(item.text)}</span>
 											</a>
 										);
 									})}
 								</div>
 								<p className={style.faq_more}>
-									<a href="https://netcloth.zendesk.com" target="_blank">{_t('faq.more')} ></a>
+									<a href={_t('faq.src')} target="_blank">{_t('faq.more')} ></a>
 								</p>
 							</div>
 						</section>

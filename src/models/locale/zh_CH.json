@@ -86,5 +86,6 @@
 	"mail.msg_ok":"订阅成功",
 	"mail.msg_faild1":"订阅失败，邮件名称不合法",
     "mail.msg_faild2":"订阅失败，重复订阅",
-    "mail.msg_faild3":"订阅失败，未知错误"
+	"mail.msg_faild3":"订阅失败，未知错误",
+	"faq.src":"https://netcloth.zendesk.com"
 }

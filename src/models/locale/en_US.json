@@ -86,5 +86,6 @@
 	"mail.msg_ok":"Success",
 	"mail.msg_faild1":"Subscribe Failed，Please enter the correct e-mail address",
 	"mail.msg_faild2":"Subscribe Failed，You have already subscribed",
-	"mail.msg_faild3":"Subscribe Failed，Unknown Error"
+	"mail.msg_faild3":"Subscribe Failed，Unknown Error",
+	"faq.src":"https://docs.google.com/document/d/1SZoqHKF6ORVWZksjdVNkuB_w88VUi8d27FTKvEweLe4/edit?usp=sharing"
 }

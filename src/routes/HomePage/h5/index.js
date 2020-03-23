@@ -226,12 +226,12 @@ export default class HomePage extends React.Component {
 						{faqs.slice(0, 6).map((item, key) => {
 							const { text } = item;
 							return (
-								<a href="https://netcloth.zendesk.com" target="_blank" className={style.content_item} key={key}>
+								<a href={_t('faq.src')} target="_blank" className={style.content_item} key={key}>
 									{_t(text)}
 								</a>
 							);
 						})}
-						<a href="https://netcloth.zendesk.com" target="_blank" className={style.more_btn}>
+						<a href={_t('faq.src')} target="_blank" className={style.more_btn}>
 							{_t('faq.more')} >
 						</a>
 					</div>
