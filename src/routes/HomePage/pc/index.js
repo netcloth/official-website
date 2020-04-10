@@ -13,7 +13,7 @@ import DownLoadSwiper from './DownLoadSwiper';
 import { faqs, applications, swiper_left, swiper_right } from 'config/base';
 import style from './style.less';
 import axios from "axios";
-const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.5/src/assets/logo.png';
+const logo = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/logo.png';
 
 @withLocal()
 export default class HomePage extends React.Component {
