@@ -90,6 +90,6 @@
 	"faq.src":"https://netcloth.zendesk.com",
 	"service_protocol":"《NetCloth软件许可及服务协议》",
 	"privacy_protocol":"《NetCloth隐私政策》",
-	"service_protocol.url":" http://storage.netcloth.org/TermsofService_zh.htm",
-	"privacy_protocol.url":" http://storage.netcloth.org/NetClothPrivacyPolicy_zh.htm"
+	"service_protocol.url":"http://storage.netcloth.org/TermsofService_zh.htm",
+	"privacy_protocol.url":"http://storage.netcloth.org/NetClothPrivacyPolicy_zh.htm"
 }

@@ -90,6 +90,6 @@
 	"faq.src":"https://docs.google.com/document/d/1SZoqHKF6ORVWZksjdVNkuB_w88VUi8d27FTKvEweLe4/edit?usp=sharing",
 	"service_protocol":"<NetCloth Terms of Service>",
 	"privacy_protocol":"<NetCloth Privacy Policy>",
-	"service_protocol.url":" http://storage.netcloth.org/TermsofService.htm",
+	"service_protocol.url":"http://storage.netcloth.org/TermsofService.htm",
 	"privacy_protocol.url":"http://storage.netcloth.org/NetClothPrivacyPolicy.htm"
 }
