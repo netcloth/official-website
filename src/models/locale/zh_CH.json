@@ -4,7 +4,7 @@
 	"header.menu.download": "下载APP",
 	"header.menu.faq": "常见问题",
 	"header.menu.main": "主链计划",
-	"netcloth": "NetCloth",
+	"netcloth": "NetCloth APP",
 	"tips": "加密生活，从\"衣\"开始",
 	"try.btn": "立即试用",
 	"more.btn": "下拉查看更多",
@@ -87,5 +87,9 @@
 	"mail.msg_faild1":"订阅失败，邮件名称不合法",
     "mail.msg_faild2":"订阅失败，重复订阅",
 	"mail.msg_faild3":"订阅失败，未知错误",
-	"faq.src":"https://netcloth.zendesk.com"
+	"faq.src":"https://netcloth.zendesk.com",
+	"service_protocol":"《NetCloth软件许可及服务协议》",
+	"privacy_protocol":"《NetCloth隐私政策》",
+	"service_protocol.url":" http://storage.netcloth.org/TermsofService_zh.htm",
+	"privacy_protocol.url":" http://storage.netcloth.org/NetClothPrivacyPolicy_zh.htm"
 }

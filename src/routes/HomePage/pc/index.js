@@ -195,7 +195,7 @@ export default class HomePage extends React.Component {
 						<section className={style.top_box} ref={this.myRef}>
 							<div className={style.content}>
 								<img src={logo} alt="" />
-								<p className={style.title}>NetCloth</p>
+								<p className={style.title}>NetCloth APP</p>
 								<p className={classNames(style.tips, style[currentLocale])}>{_t('tips')}</p>
 								<a className={style.btn} onClick={this.handleClick}>
 									{_t('try.btn')}

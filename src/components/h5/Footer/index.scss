@@ -5,48 +5,70 @@
   height: px2rem(168);
   padding: px2rem(44) px2rem(32) px2rem(44) px2rem(62);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   border-top: px2rem(1) solid rgba(255,255,255, .1);
-  .footer_left{
-    span{
+  .footer_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: px2rem(1) solid rgba(255,255,255, .1);
+    height: px2rem(168);
+    width: 10rem;
+    padding: px2rem(44) px2rem(32) px2rem(10) px2rem(62);
+    justify-content: space-around;
+    .footer_left{
+      span{
+        font-size: px2rem(24);
+        font-weight: 300;
+        color:rgba(255,255,255,1);
+      }
+    }
+    .footer_right{
+      display: flex;
+      align-items: center;
+      .footer_icon{
+        width: px2rem(80);
+        height: px2rem(80);
+        &:not(:first-child){
+          margin-left: px2rem(30);
+        }
+        &.m{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/medium_w.png") center no-repeat;
+          background-size: cover;
+        }
+        &.t{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/twier_w.png") center no-repeat;
+          background-size: cover;
+        }
+        &.g{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/github_w.png") center no-repeat;
+          background-size: cover;
+        }
+        &.b{
+          background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/blog.png") center no-repeat;
+          background-size: cover;
+        }
+  
+        .click {
+          width: px2rem(80);
+          height: px2rem(80);
+          position: absolute;
+        }
+  
+      }
+    }
+  }
+  .footer_bottom{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding-left: px2rem(44);
+    a{
       font-size: px2rem(24);
       font-weight: 300;
       color:rgba(255,255,255,1);
-    }
-  }
-  .footer_right{
-    display: flex;
-    align-items: center;
-    .footer_icon{
-      width: px2rem(80);
-      height: px2rem(80);
-      &:not(:first-child){
-        margin-left: px2rem(30);
-      }
-      &.m{
-        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/medium_w.png") center no-repeat;
-        background-size: cover;
-      }
-      &.t{
-        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/twier_w.png") center no-repeat;
-        background-size: cover;
-      }
-      &.g{
-        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/github_w.png") center no-repeat;
-        background-size: cover;
-      }
-      &.b{
-        background: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/blog.png") center no-repeat;
-        background-size: cover;
-      }
-
-      .click {
-        width: px2rem(80);
-        height: px2rem(80);
-        position: absolute;
-      }
-
     }
   }
 }

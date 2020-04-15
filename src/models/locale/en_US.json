@@ -4,7 +4,7 @@
 	"header.menu.download": "Download",
 	"header.menu.faq": "FAQ",
 	"header.menu.main": "Mainchain",
-	"netcloth": "NetCloth",
+	"netcloth": "NetCloth APP",
 	"tips": "Start Your Encrypted Life On NetCloth",
 	"try.btn": "Try Now!",
 	"more.btn": "Slide down for detail",
@@ -87,5 +87,9 @@
 	"mail.msg_faild1":"Subscribe Failed，Please enter the correct e-mail address",
 	"mail.msg_faild2":"Subscribe Failed，You have already subscribed",
 	"mail.msg_faild3":"Subscribe Failed，Unknown Error",
-	"faq.src":"https://docs.google.com/document/d/1SZoqHKF6ORVWZksjdVNkuB_w88VUi8d27FTKvEweLe4/edit?usp=sharing"
+	"faq.src":"https://docs.google.com/document/d/1SZoqHKF6ORVWZksjdVNkuB_w88VUi8d27FTKvEweLe4/edit?usp=sharing",
+	"service_protocol":"<NetCloth Terms of Service>",
+	"privacy_protocol":"<NetCloth Privacy Policy>",
+	"service_protocol.url":" http://storage.netcloth.org/TermsofService.htm",
+	"privacy_protocol.url":"http://storage.netcloth.org/NetClothPrivacyPolicy.htm"
 }
