@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import connectWithRouter from 'utils/connectWithRouter';
 import MenuIcon from './MenuIcon';
 import style from './style.scss';
-const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.6/src/assets/menu.png';
+const openMenu = 'https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.3.7/src/assets/menu.png';
 
 
 const iconConfig = {
