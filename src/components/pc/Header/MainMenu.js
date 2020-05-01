@@ -129,7 +129,7 @@ class MainMenu extends React.Component {
           <a href={_t('faq.src')} target="_blank">{_t('header.menu.faq')}</a>
         </Menu.Item>
         <Menu.Item key="plan">
-          <a href={_t('faq.src')} target="_blank">{_t('header.menu.main')}</a>
+          <a href="https://www.netcloth.org/" target="_blank">{_t('header.menu.main')}</a>
         </Menu.Item>
       </Menu>
     );
