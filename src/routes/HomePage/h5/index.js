@@ -214,7 +214,7 @@ export default class HomePage extends React.Component {
 						
 						<a href="https://apps.apple.com/cn/app/netcloth/id1481045375" target="_blank" className={classNames(style.icon, style.iphone)}> </a>
 
-						<a href="http://47.52.103.194/netcloth1.2.3.apk" download="netcloth1.2.3.apk" className={classNames(style.icon, style.and)}> </a> 
+						<a href="http://47.52.103.194/netcloth1.2.5.apk" download="netcloth1.2.5.apk" className={classNames(style.icon, style.and)}> </a> 
 
 						<a href="https://play.google.com/store/apps/details?id=com.netcloth.chat" target="_blank" className={classNames(style.icon, style.google)}> </a>
 					</div>
