@@ -42,7 +42,7 @@ class DownLoad extends React.Component {
     if (this.checkAngent()) {
       //android
       return (
-        <a href="http://47.52.103.194/netcloth1.2.5.apk" download="netcloth1.2.5.apk">{_t('download.local')}</a>
+        <a href="http://47.52.103.194/netcloth1.2.6.apk" download="netcloth1.2.6.apk">{_t('download.local')}</a>
       )
     } else {
       return (
