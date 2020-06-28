@@ -1902,10 +1902,10 @@ babel-plugin-add-module-exports@^0.2.1:
   resolved "https://registry.npm.taobao.org/babel-plugin-add-module-exports/download/babel-plugin-add-module-exports-0.2.1.tgz#9ae9a1f4a8dc67f0cdec4f4aeda1e43a5ff65e25"
   integrity sha1-mumh9KjcZ/DN7E9K7aHkOl/2XiU=
 
-babel-plugin-dva-hmr@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.npm.taobao.org/babel-plugin-dva-hmr/download/babel-plugin-dva-hmr-0.3.2.tgz#10fe0fc4b9ebb3be5ae3295c5cdf8f0a60facbdb"
-  integrity sha1-EP4PxLnrs75a4ylcXN+PCmD6y9s=
+babel-plugin-dva-hmr@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-dva-hmr/-/babel-plugin-dva-hmr-0.4.2.tgz#56cf3d49cc366fb191cd883e27ca42bddfd12735"
+  integrity sha512-QP5W0IT9LDFgoqkXD0g7wn/FMn7zO562P8qys23twXri4i3E1SGOQ3z7jqcPrqzfTZHx+Ufr+cXy9oI6OLMYZg==
 
 babel-plugin-dynamic-import-node-sync@^2.0.1:
   version "2.0.1"
