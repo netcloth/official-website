@@ -17,7 +17,7 @@
     "react-id-swiper": "^2.3.2",
     "react-intl-universal": "^2.1.4",
     "react-responsive": "^7.0.0",
-    "swiper": "^4.5.0"
+    "swiper": "^5.4.5"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.3.2",
