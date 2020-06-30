@@ -13,7 +13,7 @@
     "dva-loading": "^3.0.12",
     "lodash": "^4.17.15",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.13.0",
     "react-id-swiper": "^2.3.2",
     "react-intl-universal": "^2.1.4",
     "react-responsive": "^7.0.0",
