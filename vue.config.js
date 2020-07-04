@@ -51,40 +51,13 @@ module.exports = {
 
   // 如果这个值是一个对象，则会通过 webpack-merge 合并到最终的配置中
   // 如果你需要基于环境有条件地配置行为，或者想要直接修改配置，那就换成一个函数 (该函数会在环境变量被设置之后懒执行)。该方法的第一个参数会收到已经解析好的配置。在函数内，你可以直接修改配置，或者返回一个将会被合并的对象
-  configureWebpack: config => {
-    if (process.env.NODE_ENV === 'production') {
-      config.plugins = config.plugins.concat(
-        [
-          new UglifyJsPlugin({
-            uglifyOptions: {
-              compress: {
-                warnings: false,
-                drop_debugger: true,
-                drop_console: true, //去掉console注释
-              },
-            },
-          })
+  
+  // 对内部的 webpack 配置（比如修改、增加Loader选项）(链式操作)
 
-        ]
-      )
-      // gzip
-      // 2. 构建时开启gzip，降低服务器压缩对CPU资源的占用，服务器也要相应开启gzip
-      config.plugins.push(new CompressionWebpackPlugin({
-        algorithm: 'gzip',
-        test: new RegExp('\\.(' + productionGzipExtensions.join('|') + ')$'),
-        threshold: 10240,
-        minRatio: 0.8
-      }))
-      // 去掉map
-      config.devtool = false
-    }
-  },
   // 对内部的 webpack 配置（比如修改、增加Loader选项）(链式操作)
   chainWebpack: () => {
 
   },
-
-
   // css的处理
   css: {
     // 当为true时，css文件名可省略 module 默认为 false
@@ -116,7 +89,7 @@ module.exports = {
   },
 
   /// 是否使用eslint
-  useEslint: false,
+  //useEslint: false,
 
   // 可以用来传递任何第三方插件选项
   pluginOptions: {}

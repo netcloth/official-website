@@ -19,10 +19,11 @@
         </div>
 
         <div class="footer-nav-top-right">
-          <img @click="onMedium" src="@/assets/pc2/icon_medium.png" alt srcset />
-          <img @click="onTwitter" src="@/assets/pc2/icon_twitter.png" alt srcset />
-          <img @click="onGithub" src="@/assets/pc2/icon_github.png" alt srcset />
-          <img @click="onCat" src="@/assets/pc2/icon_cat.png" alt srcset />
+        https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.2/dist/index.css
+          <img @click="onMedium" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.4/src/assets/pc2/icon_medium.png" alt srcset />
+          <img @click="onTwitter" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.4/src/assets/pc2/icon_twitter.png" alt srcset />
+          <img @click="onGithub" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.4/src/assets/pc2/icon_github.png" alt srcset />
+          <img @click="onCat" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.4/src/assets/pc2/icon_cat.png" alt srcset />
         </div>
       </div>
     </div>
