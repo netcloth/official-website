@@ -9,8 +9,8 @@
   <div :class="['header',{'header-white':type===2}]">
     <div class="header-nav">
       <div class="header-nav-logo" @click="goIndex">
-        <img v-if="type===1" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/logo-white.png" />
-        <img v-else src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/logo-white.png" />
+        <img v-if="type===1" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/logo-white.png" />
+        <img v-else src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/logo-white.png" />
         NetCloth APP
       </div>
 

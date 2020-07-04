@@ -18,8 +18,8 @@
           autoplay="autoplay"
           muted="muted"
           class="index-first-video-bg"
-          src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/video-bg.mp4"
-          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/bg-first.png"
+          src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/video-bg.mp4"
+          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/bg-first.png"
         ></video>
       </div>
       <div class="index-first-box">
@@ -27,7 +27,7 @@
         <div class="index-first-box-top">
           <!-- <img src="@/assets/Wap/phone-silve.png" alt srcset /> -->
 
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/phone-model@2x.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/phone-model@2x.png" alt srcset />
 
           <video
           controls="controls"
@@ -36,7 +36,7 @@
           muted="muted"
           class="index-first-box-left-bg"
           :src="landpageVideoPath"
-          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/bg-first.png">
+          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/bg-first.png">
           </video>
 
         </div>
@@ -68,7 +68,7 @@
     <div class="index-two">
       <div class="index-two-top">
         <div class="index-two-top-header">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/personnet_ico.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_ico.png" alt srcset />
           {{ $t('personnet.slogan') }}
         </div>
         <div class="index-two-top-des">{{ $t('personnet.desc1') }} {{ $t('personnet.desc2') }}</div>
@@ -82,7 +82,7 @@
     <div class="index-three">
       <div class="index-three-top">
         <div class="index-three-top-header">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/databox_icon.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_icon.png" alt srcset />
           {{ $t('databox.slogan') }}
         </div>
         <div class="index-three-top-des">{{ $t('databox.desc1') }}{{ $t('databox.desc2') }}</div>
@@ -96,7 +96,7 @@
     <div class="index-four">
       <div class="index-four-top">
         <div class="index-four-top-header">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/session_icon.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_icon.png" alt srcset />
           {{ $t('chat.slogan') }}
         </div>
         <div class="index-four-top-des">{{ $t('chat.desc1') }}{{ $t('chat.desc2') }}</div>
@@ -110,7 +110,7 @@
     <div class="index-fives">
       <div class="index-fives-top">
         <div class="index-fives-top-header">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/wallet_icon.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_icon.png" alt srcset />
           {{ $t('wallet.slogan') }}
         </div>
         <div class="index-fives-top-des">{{ $t('wallet.desc1') }}{{ $t('wallet.desc2') }}</div>
@@ -123,13 +123,13 @@
     <!-- about -->
     <div class="index-six">
       <div class="index-six-com">
-         <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/about_business.png" alt srcset />
+         <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_business.png" alt srcset />
           <h1>{{ $t('about.business') }}</h1>
           <h2>contact@netcloth.org</h2>
           <h3>{{ $t('about.businessDesc') }}</h3>
       </div>
       <div class="index-six-com">
-        <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/about_costom_service.png" alt srcset />
+        <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_costom_service.png" alt srcset />
           <h1>{{ $t('about.customServer') }}</h1>
           <h2>contact@netcloth.org</h2>
           <h3>{{ $t('about.customServerDesc') }}</h3>
@@ -161,38 +161,38 @@ export default {
     aboutGroupImg: function() {
       console.log("get img");
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/about_community_cn.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/about_community_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_community_cn.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_community_en.png");
     },
 
     landpageVideoPath: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/landingPage_intro_zh.mp4")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/landingPage_intro_en.mp4");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/landingPage_intro_zh.mp4")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/landingPage_intro_en.mp4");
     },
 
     personnetBg: function() {
        return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/personnet_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/personnet_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_bg_en.png");
     },
 
     walletBg: function () {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/wallet_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/wallet_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_bg_en.png");
     },
 
     databoxBg: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/databox_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/databox_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_bg_en.png");
     },
 
     sessionBg: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/session_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.5/src/assets/pc2/session_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_bg_en.png");
     },
   },
 
