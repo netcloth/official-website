@@ -1,19 +1,24 @@
-## require  
+# q-island2
+
+## Project setup
 ```
-node version >= 12.0
+yarn install
 ```
 
-## prepare
+### Compiles and hot-reloads for development
 ```
-npm install
-```
-
-## dev
-```
-npm run dev
+yarn serve
 ```
 
-## build
+### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
