@@ -14,7 +14,7 @@
     "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
     "postcss": "^7.0.27",
-    "postcss-flexbugs-fixes": "^4.2.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "postcss-px-to-viewport": "^1.1.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
