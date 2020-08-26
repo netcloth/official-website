@@ -19,15 +19,15 @@
           autoplay="autoplay"
           muted="muted"
           class="index-first-video-bg"
-          src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/video-bg.mp4"
-          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/bg-first.png"
+          src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/video-bg.mp4"
+          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/bg-first.png"
         ></video>
       </div>
 
       <div class="index-first-box">
         <div class="index-first-box-left">
           
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/phone-model@2x.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/phone-model@2x.png" alt srcset />
 
           <video
           controls="controls"
@@ -36,7 +36,7 @@
           muted="muted"
           class="index-first-box-left-bg"
           :src="landpageVideoPath"
-          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/bg-first.png">
+          poster="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/bg-first.png">
           </video>
 
           
@@ -52,18 +52,18 @@
               <Icon type="logo-apple" class="icon" />
               {{ $t('landingPage.ios') }}
               <div class="qrcodes">
-                <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/ios_qrcode.png" alt srcset />
+                <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/ios_qrcode.png" alt srcset />
               </div>
             </div>
             <div>
               <Icon type="logo-android" class="icon" />
               {{ $t('landingPage.android') }}
               <div class="qrcodes">
-                <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/android_qrcode.png" alt srcset />
+                <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/android_qrcode.png" alt srcset />
               </div>
             </div>
             <div class="googleplay">
-              <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/logo_google_play.png" alt srcset />
+              <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/logo_google_play.png" alt srcset />
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
       <div class="index-two-box">
         <div class="index-two-box-left">
           <div class="index-two-box-left-header">
-            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_ico.png" alt srcset />
+            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/personnet_ico.png" alt srcset />
             {{ $t('personnet.slogan') }}
           </div>
           <div class="index-two-box-left-des">{{ $t('personnet.desc1') }}</div>
@@ -110,7 +110,7 @@
           <img :src="personnetBg" alt srcset />
         </div>
       </div>
-      <img class="index-two-box-left-img" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_bottom.png" />
+      <img class="index-two-box-left-img" src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/personnet_bottom.png" />
     </div>
 
     <!-- 数据保险箱 -->
@@ -121,7 +121,7 @@
         </div>
         <div class="index-three-box-right">
           <div class="index-three-box-right-header">
-            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_icon.png" alt srcset />
+            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/databox_icon.png" alt srcset />
             {{ $t('databox.slogan') }}
           </div>
           <div class="index-three-box-right-des">{{ $t('databox.desc1') }}</div>
@@ -135,7 +135,7 @@
       <div class="index-four-box">
         <div class="index-four-box-left">
           <div class="index-four-box-left-header">
-            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_icon.png" alt srcset />
+            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/session_icon.png" alt srcset />
             {{ $t('chat.slogan') }}
           </div>
           <div class="index-four-box-left-des">{{ $t('chat.desc1') }}</div>
@@ -155,7 +155,7 @@
         </div>
         <div class="index-fives-box-right">
           <div class="index-fives-box-right-header">
-            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_icon.png" alt srcset />
+            <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wallet_icon.png" alt srcset />
             {{ $t('wallet.slogan') }}
           </div>
           <div class="index-fives-box-right-des">{{ $t('wallet.desc1') }}</div>
@@ -168,14 +168,14 @@
     <div class="index-six">
       <div class="index-six-box">
         <div class="index-six-box-com">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_business.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/about_business.png" alt srcset />
           <h1>{{ $t('about.business') }}</h1>
           <h2>contact@netcloth.org</h2>
           <h3>{{ $t('about.businessDesc') }}</h3>
         </div>
 
         <div class="index-six-box-com">
-          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_costom_service.png" alt srcset />
+          <img src="https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/about_costom_service.png" alt srcset />
           <h1>{{ $t('about.customServer') }}</h1>
           <h2>contact@netcloth.org</h2>
           <h3>{{ $t('about.customServerDesc') }}</h3>
@@ -252,38 +252,38 @@ export default {
     aboutGroupImg: function() {
       console.log("get img");
       return this.$store.state.language === "zh"
-        ? "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_community_cn.png"
-        : "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/about_community_en.png";
+        ? "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/about_community_cn.png"
+        : "https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/about_community_en.png";
     },
 
     landpageVideoPath: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/landingPage_intro_zh.mp4")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/landingPage_intro_en.mp4");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/landingPage_intro_zh.mp4")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/landingPage_intro_en.mp4");
     },
 
     personnetBg: function() {
        return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/personnet_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/personnet_bg_en.png");
     },
 
     walletBg: function () {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wallet_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wallet_bg_en.png");
     },
 
     databoxBg: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/databox_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/databox_bg_en.png");
     },
 
     sessionBg: function() {
       return this.$store.state.language === "zh"
-        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_bg.png")
-        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_bg_en.png");
+        ? ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/session_bg.png")
+        : ("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/session_bg_en.png");
     },
     
 
@@ -316,7 +316,7 @@ export default {
     &-top {
       width: 100%;
       height: 295px;
-      background-image: url('https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_big_bg.png');
+      background-image: url('https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_big_bg.png');
       background-size: 100% 100%;
       background-repeat: no-repeat;
     }
@@ -347,21 +347,21 @@ export default {
       position: relative;
 
       .wish1 {
-        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_1_bg.png");
+        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_1_bg.png");
         background-size: 384px 544px;
         width: 384px;
         height: 544px;
       }
 
       .wish2 {
-        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_2_bg.png");
+        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_2_bg.png");
         background-size: 384px 544px;
         width: 384px;
         height: 544px;
       }
 
       .wish3 {
-        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_3_bg.png");
+        background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_3_bg.png");
         background-size: 384px 544px;
         width: 384px;
         height: 544px;
@@ -400,21 +400,21 @@ export default {
     height: 604px !important ;
     // background-color: red;
     .wish1-en {
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_1_bg_en.png") !important ;
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_1_bg_en.png") !important ;
       background-size: 384px 604px !important ;
       width: 384px !important;
       height: 604px !important;
     }
 
     .wish2-en {
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_2_bg_en.png") !important ;
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_2_bg_en.png") !important ;
       background-size: 384px 604px !important ;
       width: 384px !important ;
       height: 604px !important ;
     }
 
     .wish3-en {
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wish_3_bg_en.png") !important ;
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wish_3_bg_en.png") !important ;
       background-size: 384px 604px !important ;
       width: 384px !important ;
       height: 604px !important ;
@@ -547,7 +547,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/personnet_top.png");
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/personnet_top.png");
       background-size: 629px 122px;
       background-repeat: no-repeat;
       width: 1100px;
@@ -605,7 +605,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/databox_top.png");
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/databox_top.png");
       background-size: 702px 114px;
       background-repeat: no-repeat;
       background-position-x: right;
@@ -655,14 +655,14 @@ export default {
 
   /// chat session
   &-four {
-    background: url('https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_chat_big_bg.png') no-repeat  center;
+    background: url('https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/session_chat_big_bg.png') no-repeat  center;
     background-size: 100% 100%;
     
     &-box {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/session_top.png");
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/session_top.png");
       background-size: 466px 199px;
       background-repeat: no-repeat;
       width: 1100px;
@@ -718,7 +718,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.6/src/assets/pc2/wallet_top.png");
+      background-image: url("https://cdn.jsdelivr.net/gh/netcloth/official-website@v0.4.7/src/assets/pc2/wallet_top.png");
       background-size: 531px 155px;
       background-repeat: no-repeat;
       background-position-x: right;
