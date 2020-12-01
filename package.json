@@ -36,6 +36,6 @@
     "sass-loader": "^8.0.2",
     "vue-i18n": "^8.18.2",
     "vue-template-compiler": "^2.6.11",
-    "webpack-bundle-analyzer": "^3.6.1"
+    "webpack-bundle-analyzer": "^4.2.0"
   }
 }
