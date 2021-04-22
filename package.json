@@ -10,7 +10,7 @@
   "dependencies": {
     "babel-plugin-import": "^1.13.0",
     "compression-webpack-plugin": "^4.0.0",
-    "core-js": "^3.6.4",
+    "core-js": "^3.10.2",
     "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
     "postcss": "^7.0.27",
