@@ -13,7 +13,7 @@
     "core-js": "^3.6.4",
     "cssnano": "^4.1.10",
     "normalize.css": "^8.0.1",
-    "postcss": "^7.0.27",
+    "postcss": "^7.0.36",
     "postcss-flexbugs-fixes": "^4.2.0",
     "postcss-preset-env": "^6.7.0",
     "postcss-px-to-viewport": "^1.1.1",
